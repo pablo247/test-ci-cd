@@ -1,0 +1,27 @@
+.offcanvas{
+    padding-top: 0px!important;
+}
+.uk-offcanvas-bar .offcanvas:nth-of-type(2) li:first-child{
+    border-top: 1px solid rgba(255,255,255,.2);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.offcanvas img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.uk-offcanvas-bar h3{
+    font-family: Poppins;
+    text-align: center;
+}
+.offcanvas a { color: #ffffff!important; }
+
+.uk-offcanvas-bar .nav-child
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+ul.uk-nav-sub { padding-left: 20px; }

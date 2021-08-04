@@ -1,0 +1,36 @@
+$properties: 'margin', 'padding';
+@each $property in $properties {
+
+  @for $i from 1 to 50 {
+
+    .#{$property}-#{$i} {
+      #{$property}: #{$i + 'px'};
+    }
+
+    @each $side in $sides {
+
+      .#{$property}-#{$i}-#{$side} {
+        #{$property}-#{$side}: #{$i + 'px'};
+      }
+
+    }
+
+  }
+
+  .#{$property}-remove {
+    #{$property}: 0;
+  }
+
+  @each $side in $sides {
+
+    .#{$property}-remove-#{$side} {
+      #{$property}-#{$side}: 0;
+    }
+
+  }
+
+}
+
+.text-italic {
+  font-style: italic;
+}

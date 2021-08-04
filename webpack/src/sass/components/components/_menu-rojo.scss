@@ -1,0 +1,24 @@
+.menu-rojo {
+  ul.menu li,
+  ul.menu li a {
+    color: map-get($colors, 'rojo-1');
+    font-weight: map-get($weights, 'medium');
+    font-size: map-get($sizes, '13');
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  ul.menu li {
+    padding-bottom: 3px;
+
+    & a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      &:hover {
+        border-bottom: 3px solid map-get($colors, 'negro-1');
+        margin-bottom: -3px;
+      }
+    }
+  }
+}

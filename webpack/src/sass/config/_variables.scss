@@ -1,0 +1,50 @@
+$colors : (
+	"rojo-1" : #840f31,
+	"rojo-2" : #A8123E,
+  "brown-1" : #EBE7E0,
+	"negro-1" : #3c4145,
+	"negro-2" : #636569,
+	"gris-1" : #d6d1c4,
+	"gris-2" : #ebe7e0,
+	"gris-3" : #f5f5f5,
+	"gris-4" : #eaeaed,
+	"gris-5" : #a6a6a8,
+	"gris-6" : #dedde3,
+  "gris-7" : #f1f1f1,
+  "white" : #ffffff,
+  "black" : #000000,
+);
+
+$weights : (
+	"light" : 300,
+	"regular" : 400,
+	"medium" : 500,
+	"semi-bold" : 600,
+	"semibold" : 600,
+	"bold" : 700,
+);
+
+// Rango 8 px - 72 px
+$sizes : (
+	"10" : 10px,
+	"12" : 12px,
+  "13" : 13px,
+	"14" : 14px,
+	"15" : 15px,
+	"16" : 16px,
+	"18" : 18px,
+	"19" : 19px,
+	"23" : 23px,
+	"25" : 25px,
+	"26" : 26px,
+	"27" : 27px,
+	"35" : 35px,
+  "36" : 36px,
+	"42" : 42px,
+  "48" : 48px,
+  "55" : 55px,
+);
+
+$sides: 'bottom', 'left', 'right', 'top';
+
+$borders-radius: 0.25rem;

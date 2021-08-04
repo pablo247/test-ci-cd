@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>dst_multisitios</name>
+	<version>1.0</version>
+	<creationDate>09/06/2021</creationDate>
+	<author>Pablo De Jesús Moreno</author>
+	<authorEmail>pablo.24726@gmail.com</authorEmail>
+	<copyright>Gobierno del Estado de Puebla 2021. Todos los Derechos Reservados.</copyright>
+	<description>Plantilla del Portal del Gobierno del Estado de Puebla.</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>uikit.3.7.1</folder>
+		<folder>webpack</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>buscador</position>
+		<position>main-top</position>
+		<position>interior-top</position>
+		<position>extra1-top</position>
+		<position>extra2-top</position>
+		<position>main-bottom</position>
+		<position>interior-bottom</position>
+		<position>extra1-bottom</position>
+		<position>extra2-bottom</position>
+		<position>footer-left</position>
+		<position>footer-right</position>
+		<position>copyright</position>
+		<position>offcanvas</position>
+		<position>debug</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="logoFile" type="media" label="Logo" description="Logo" default="" />
+
+				<field type="spacer" label="&lt;b&gt;Cubrir header&lt;/b&gt; &lt;br&gt; Si se utilizan los siguientes parametros para el header, se debe colocar una imágen transparente en el campo Logo" />
+
+				<field name="logoFileCover" type="media" label="Logotipo pincipal" description="Logotipo pincipal para cubrir el header con medidas de 1300 x 180 pixeles." default="" />
+				<field name="logoMovilFileCover" type="media" label="Logotipo pincipal movil con buscador" description="Logotipo pincipal para cubrir el header en movil cuando halla un buscador." default="" />
+				<field name="logoFileCoverLeft" type="media" label="Parte lateral izquierda del logotipo" description="Parte lateral izquierda del logtipo" default="" />
+				<field name="backgroundcolorLeft" type="color" default="" format="rgb" label="Fondo del lateral izquirdo" description="Seleccione el color de fondo que tendrá la parte lateral izquierda" />
+				<field name="backgroundcolorRight" type="color" default="" format="rgb" label="Fondo del lateral derecho" description="Seleccione el color de fondo que tendrá la parte lateral derecha" />
+
+				<field type="spacer" hr="true" />
+
+				<field name="sitetitle" type="text" label="Título del sitio" description="Título del sitio"	default="" filter="string" />
+				<field name="sitedescription"  type="text" label="Descripción del sitio" description="Descripción del sitio" default="" filter="string" />
+
+				<field type="spacer" hr="true" />
+
+				<field name="titleGoToPuebla" class="" type="text" label="Título Ir a Puebla" description="Ingresa el título para el link del Portal del Estado de Puebla"  filter="raw" default="&#60;&#60; Portal Gobierno" hint="&#60;&#60; Portal Gobierno"/>
+				<field name="descriptionGoToPuebla" class="" type="text" label="Descripción Ir a Puebla" description="Ingresa la descripción para el link del Portal del Estado de Puebla"  filter="raw" default="Ir al portal del Gobierno del Estado de Puebla"/>
+				<field name="goToPuebla" class="" type="text" label="Link Ir a Puebla"
+				description="Ingresa la liga del Portal del Estado de Puebla" default="https://puebla.gob.mx/"/>
+
+				<field type="spacer" hr="true" />
+
+				<field name="twitter" class="" type="text" label="Twitter" description="Ingresa la liga de Twitter" />
+				<field name="facebook" class="" type="text" label="Facebook" description="Ingresa la liga de Facebook" />
+				<field name="youtube" class="" type="text" label="Youtube" description="Ingresa la liga de Youtube" />
+				<field name="instagram" class="" type="text" label="Instagram" description="Ingresa la liga de Instagram" />
+				<field name="pinterest" class="" type="text" label="Pinterest" description="Ingresa la liga de Pinterest" />
+				<field name="googleAnalytics" type="textarea" default="" label="Script de Google Analytics" description="Script de Google Analytics" rows="20" cols="200" filter="raw"/>
+				<field name="accessibility" type="editor" label="Script de Accesibilidad" description="Script para habilitar la accesibilidad" width="100" filter="raw"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

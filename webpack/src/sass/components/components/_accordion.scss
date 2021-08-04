@@ -1,0 +1,38 @@
+.uk-accordion-data__title {
+	height: initial;
+	background: rgba(189, 189, 189, 0.3);
+	line-height: normal;
+	position: relative;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.uk-accordion-data__title::after {
+	margin-right: 10px;
+	margin-left: 0;
+	content: "";
+	width: 15px;
+	height: 100%;
+	display: block;
+	border-left: 5px solid #a8123e;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.uk-accordion-title::before {
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.uk-accordion-title.uk-accordion-data__title {
+	padding-left: 40px;
+}
+
+.uk-accordion-title.uk-accordion-data__title::before {
+	margin-left: 15px;
+}

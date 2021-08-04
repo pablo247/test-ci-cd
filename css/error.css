@@ -1,0 +1,120 @@
+html, body{
+    height: 100%;
+    font-family: Poppins;
+}
+.header, .header-inner, .left-header, .right-header{
+    height: 180px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #f2f2f2 url('../images/fuera-de-linea-fondo.png') right bottom no-repeat;
+    min-height: 100%;
+}
+@media (max-width:1366px) { 
+    .content_error{
+        height: 65%;
+    }
+}
+@media (min-width:641px)  and (max-width:1024px) { 
+    .content_error{
+        height: 65%;
+    }
+    .header, .header-inner, .left-header, .right-header{
+        height: 110px;
+    }
+    body{
+        text-align: center;   
+        background-size: 70%
+    }
+    .body h2{
+        font-size: 28px
+    }
+    .body h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .content_error{
+        height: 50%;
+    }
+}
+@media (min-width:481px) and (max-width:640px) { 
+    body{
+        text-align: center;   
+        background-size: contain;
+    }
+    .header, .header-inner, .left-header, .right-header{
+        height: 90px;
+    }
+    .body h2{
+        font-size: 25px
+    }
+    .body h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .content_error{
+        height: 50%;
+    }
+}
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 580px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape){ 
+    .header, .header-inner, .left-header, .right-header{
+        min-height: 80px!important;
+        height: 80px!important;
+    }
+    .body h2{
+        font-size: 20px!important;
+    }
+    .body h3, p{
+        font-size: 16px;
+    }
+    .content_error img {
+        width: 20%!important;
+    }
+}
+@media (min-width:360px) and (max-width:480px) { 
+    .header, .header-inner, .left-header, .right-header{
+        min-height: 100px;
+        height: 100px;
+    }
+    body{
+        text-align: center;   
+        background-size: contain;
+    }
+    h3{
+        font-size: 20px;
+    } 
+    .content_error{
+        height: 60%;
+    }
+    .content_error img{
+        width: 50%;
+    }
+}
+@media (max-width:320px) { 
+    body{
+        text-align: center;   
+        background-size: contain;
+    }
+    .body h2{
+        font-size: 28px
+    }
+    .body h3{
+        font-size: 18px;
+    }
+    .header, .header-inner, .left-header, .right-header{
+        min-height: 90px;
+        height: 90px;
+    }
+    .content_error{
+        height: 60%;
+    }
+}

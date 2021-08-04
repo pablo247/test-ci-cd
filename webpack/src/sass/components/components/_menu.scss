@@ -1,0 +1,40 @@
+.submenu-dropdown {
+  position: absolute;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 0;
+  opacity: 1;
+}
+
+/* XS UIKIT */
+@media (min-width:320px) { }
+/* S UIKIT */
+@media (min-width:640px) {
+  .submenu-dropdown {
+    background: map-get($colors, 'gris-7');
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 1000;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+  }
+
+  .submenu-dropdown--active,
+  .menu-dropdown:hover > .submenu-dropdown {
+    left: 0;
+    width: auto;
+    height: auto;
+    opacity: 1;
+  }
+}
+/* M UIKIT */
+@media (min-width:960px) { }
+/* L UIKIT */
+@media (min-width:1200px) { }
+/* XL UIKIT */
+@media (min-width:1600px) { }

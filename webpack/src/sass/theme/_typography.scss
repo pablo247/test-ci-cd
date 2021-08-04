@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+html,
+body {
+    font: map-get($weights, 'regular') 16px 'DM Sans', sans-serif;
+}
+
+.f-dmseriftext {
+  font-family: 'DM Serif Text', serif;
+}
+
+.f-dmsans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, .uk-h1,
+h2, .uk-h2,
+h3, .uk-h3,
+h4, .uk-h4,
+h5, .uk-h5,
+h6, .uk-h6 {
+  font-weight: map-get($weights, 'bold');
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+
+@each $weight-name, $weight in $weights {
+
+	.fw-#{$weight-name}, .fw-#{$weight} {
+    font-weight: $weight;
+  }
+
+  .fwi-#{$weight-name}, .fwi-#{$weight} {
+    font-weight: $weight;
+    font-style: italic;
+  }
+
+}
+
+@each $size-name, $size in $sizes {
+
+	.fs-#{$size-name} {
+    font-size: $size;
+  }
+
+  @include mq-xs {
+    .fs-#{$size-name}\@sx {
+      font-size: $size;
+    }
+  }
+
+  @include mq-s {
+    .fs-#{$size-name}\@s {
+      font-size: $size;
+    }
+  }
+
+  @include mq-m {
+    .fs-#{$size-name}\@m {
+      font-size: $size;
+    }
+  }
+
+  @include mq-l {
+    .fs-#{$size-name}\@l {
+      font-size: $size;
+    }
+  }
+
+  @include mq-xl {
+    .fs-#{$size-name}\@sl {
+      font-size: $size;
+    }
+  }
+
+}

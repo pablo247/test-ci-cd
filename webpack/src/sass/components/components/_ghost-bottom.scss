@@ -1,0 +1,50 @@
+.ghost-button {
+
+  &-white {
+    border: 1px solid map-get($colors, 'white');
+    color: map-get($colors, 'white');
+    font-size: 14px;
+    font-style: normal;
+    padding: 0 15px;
+    line-height: 28px;
+
+    &:focus,
+    &:hover {
+      border: 1px solid map-get($colors, 'white');
+      background-color: map-get($colors, 'white');
+      color: map-get($colors, 'black');
+    }
+  }
+
+  &-rojo-1 {
+    border: 1px solid map-get($colors, 'rojo-1');
+    color: map-get($colors, 'rojo-1');
+    font-size: 14px;
+    font-style: normal;
+    padding: 0 15px;
+    line-height: 28px;
+
+    &:focus,
+    &:hover {
+      border: 1px solid map-get($colors, 'rojo-1');
+      background-color: map-get($colors, 'rojo-1');
+      color: map-get($colors, 'white');
+    }
+  }
+
+  &-negro-1 {
+    border: 1px solid map-get($colors, 'negro-1');
+    color: map-get($colors, 'negro-1');
+    font-size: 14px;
+    font-style: normal;
+    padding: 0 15px;
+    line-height: 28px;
+
+    &:focus,
+    &:hover {
+      border: 1px solid map-get($colors, 'negro-1');
+      background-color: map-get($colors, 'negro-1');
+      color: map-get($colors, 'white');
+    }
+  }
+}

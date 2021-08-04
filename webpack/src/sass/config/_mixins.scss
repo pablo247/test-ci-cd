@@ -1,0 +1,32 @@
+/***************\
+  Media Querys
+\***************/
+@mixin mq-xs {
+  @media (min-width:320px) {
+    @content;
+  }
+}
+
+@mixin mq-s {
+  @media (min-width:640px) {
+    @content;
+  }
+}
+
+@mixin mq-m {
+  @media (min-width:960px) {
+    @content;
+  }
+}
+
+@mixin mq-l {
+  @media (min-width:1200px) {
+    @content;
+  }
+}
+
+@mixin mq-xl {
+  @media (min-width:1600px) {
+    @content;
+  }
+}

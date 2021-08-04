@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'TramitesGOB';
+    src:  url('../fonts/TramitesGOB.eot?2yxf40');
+    src:  url('../fonts/TramitesGOB.eot?2yxf40#iefix') format('embedded-opentype'),
+      url('../fonts/TramitesGOB.ttf?2yxf40') format('truetype'),
+      url('../fonts/TramitesGOB.woff?2yxf40') format('woff'),
+      url('../fonts/TramitesGOB.svg?2yxf40#TramitesGOB') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="ticon-"], [class*=" ticon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'TramitesGOB' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ticon-ciudadania .path1:before {
+    content: "\a900";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-ciudadania .path2:before {
+    content: "\a901";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-ciudadania .path3:before {
+    content: "\a902";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 121, 118);
+  }
+  .ticon-ciudadania .path4:before {
+    content: "\a903";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 121, 118);
+  }
+  .ticon-ciudadania .path5:before {
+    content: "\a904";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 121, 118);
+  }
+  .ticon-ciudadania .path6:before {
+    content: "\a905";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 121, 118);
+  }
+  .ticon-ciudadania .path7:before {
+    content: "\a906";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-d_social .path1:before {
+    content: "\a907";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-d_social .path2:before {
+    content: "\a908";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-d_social .path3:before {
+    content: "\a909";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-d_social .path4:before {
+    content: "\a90a";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-educacion .path1:before {
+    content: "\a90b";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-educacion .path2:before {
+    content: "\a90c";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-educacion .path3:before {
+    content: "\a90d";
+    margin-left: -0.884765625em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-empleo .path1:before {
+    content: "\a90e";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-empleo .path2:before {
+    content: "\a90f";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-empleo .path3:before {
+    content: "\a910";
+    margin-left: -0.884765625em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-finanzas .path1:before {
+    content: "\a911";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-finanzas .path2:before {
+    content: "\a912";
+    margin-left: -0.884765625em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-finanzas .path3:before {
+    content: "\a913";
+    margin-left: -0.884765625em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-finanzas .path4:before {
+    content: "\a914";
+    margin-left: -0.884765625em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-finanzas .path5:before {
+    content: "\a915";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-m_ambiente .path1:before {
+    content: "\a916";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-m_ambiente .path2:before {
+    content: "\a917";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-m_ambiente .path3:before {
+    content: "\a918";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-m_ambiente .path4:before {
+    content: "\a919";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-m_ambiente .path5:before {
+    content: "\a91a";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-negocios .path1:before {
+    content: "\a91b";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-negocios .path2:before {
+    content: "\a91c";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-negocios .path3:before {
+    content: "\a91d";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-salud .path1:before {
+    content: "\a91e";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-salud .path2:before {
+    content: "\a91f";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-salud .path3:before {
+    content: "\a920";
+    margin-left: -0.884765625em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-seguridad .path1:before {
+    content: "\e921";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-seguridad .path2:before {
+    content: "\e922";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path3:before {
+    content: "\e923";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path4:before {
+    content: "\e924";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-seguridad .path5:before {
+    content: "\e925";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path6:before {
+    content: "\e926";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-seguridad .path7:before {
+    content: "\e927";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path8:before {
+    content: "\e928";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path9:before {
+    content: "\e929";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path10:before {
+    content: "\e92a";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-seguridad .path11:before {
+    content: "\e92b";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path12:before {
+    content: "\e92c";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path13:before {
+    content: "\e92d";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path14:before {
+    content: "\e92e";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-seguridad .path15:before {
+    content: "\e92f";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-seguridad .path16:before {
+    content: "\e930";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-transporte .path1:before {
+    content: "\e920";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-transporte .path2:before {
+    content: "\e931";
+    margin-left: -0.884765625em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-transporte .path3:before {
+    content: "\e932";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-transporte .path4:before {
+    content: "\e933";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-transporte .path5:before {
+    content: "\e934";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-transporte .path6:before {
+    content: "\e935";
+    margin-left: -0.884765625em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-turismo .path1:before {
+    content: "\a937";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-turismo .path2:before {
+    content: "\a938";
+    margin-left: -0.8857421875em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-turismo .path3:before {
+    content: "\a939";
+    margin-left: -0.8857421875em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-turismo .path4:before {
+    content: "\a93a";
+    margin-left: -0.8857421875em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-turismo .path5:before {
+    content: "\a93b";
+    margin-left: -0.8857421875em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-turismo .path6:before {
+    content: "\a93c";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-turismo .path7:before {
+    content: "\a93d";
+    margin-left: -0.8857421875em;
+    color: rgb(199, 32, 57);
+  }
+  .ticon-vehiculos .path1:before {
+    content: "\a93e";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-vehiculos .path2:before {
+    content: "\a93f";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-vehiculos .path3:before {
+    content: "\a940";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
+  .ticon-vehiculos .path4:before {
+    content: "\a941";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-vehiculos .path5:before {
+    content: "\a942";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-vehiculos .path6:before {
+    content: "\a943";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-vehiculos .path7:before {
+    content: "\a944";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-vivienda .path1:before {
+    content: "\e945";
+    color: rgb(255, 255, 255);
+  }
+  .ticon-vivienda .path2:before {
+    content: "\e946";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-vivienda .path3:before {
+    content: "\e947";
+    margin-left: -0.8857421875em;
+    color: rgb(190, 32, 57);
+  }
+  .ticon-vivienda .path4:before {
+    content: "\e948";
+    margin-left: -0.8857421875em;
+    color: rgb(128, 122, 119);
+  }
