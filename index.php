@@ -86,6 +86,7 @@ $document->addStyleDeclaration($css);
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<jdoc:include type="head" />
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+	<link href="<?= $url ?>media/templates/site/<?=$this->template?>/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 </head>
 <body>
 	<header class="header uk-position-relative">
