@@ -22,7 +22,7 @@
 		<folder>html</folder>
 		<folder>images</folder>
 		<folder>js</folder>
-		<folder>uikit.3.7.1</folder>
+		<folder>uikit-3.7.1</folder>
 	</files>
 	<positions>
 		<position>menu</position>
@@ -61,10 +61,10 @@
 
 				<field type="spacer" hr="true" />
 
-				<field name="titleGoToPuebla" class="" type="text" label="Título Ir a Puebla" description="Ingresa el título para el link del Portal del Estado de Puebla"  filter="raw" default="&#60;&#60; Portal Gobierno" hint="&#60;&#60; Portal Gobierno"/>
-				<field name="descriptionGoToPuebla" class="" type="text" label="Descripción Ir a Puebla" description="Ingresa la descripción para el link del Portal del Estado de Puebla"  filter="raw" default="Ir al portal del Gobierno del Estado de Puebla"/>
+				<field name="titleGoToPuebla" class="" type="text" label="Título Ir a Puebla" description="Ingresa el título para el link del Portal del Estado de Puebla"  filter="raw" hint="&#60;&#60; Portal Gobierno"/>
+				<field name="descriptionGoToPuebla" class="" type="text" label="Descripción Ir a Puebla" description="Ingresa la descripción para el link del Portal del Estado de Puebla"  filter="raw" hint="Ir al portal del Gobierno del Estado de Puebla"/>
 				<field name="goToPuebla" class="" type="text" label="Link Ir a Puebla"
-				description="Ingresa la liga del Portal del Estado de Puebla" default="https://puebla.gob.mx/"/>
+				description="Ingresa la liga del Portal del Estado de Puebla" hint="https://puebla.gob.mx/"/>
 
 				<field type="spacer" hr="true" />
 

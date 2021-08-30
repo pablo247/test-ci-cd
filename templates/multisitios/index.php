@@ -29,8 +29,8 @@ JHtml::_('script', 'template.js', array('relative' => true));
 JHtml::_('stylesheet', 'app.css', array('relative' => true));
 JHtml::_('script', 'app.js', array('relative' => true));
 
-JHtml::_('stylesheet', 'user.css', array('relative' => true));
-JHtml::_('script', 'user.js', array('relative' => true));
+JHtml::_('stylesheet', 'media/templates/site/'.$this->template.'/css/user.css');
+JHtml::_('script', 'media/templates/site/'.$this->template.'/js/user.js');
 
 // Logo file or site title param
 if ($this->params->get('logoFile')) {
@@ -42,7 +42,6 @@ elseif ($this->params->get('sitetitle')) {
 else {
 	$logo = "<span class='site-title' title='{$sitename}'>{$sitename}</span>";
 }
-
 
 $background_left = ($this->params->get('backgroundcolorLeft')) ? $this->params->get('backgroundcolorLeft') : '';
 $background_right = ($this->params->get('backgroundcolorRight')) ? $this->params->get('backgroundcolorRight') : '';
