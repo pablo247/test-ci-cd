@@ -143,6 +143,7 @@ function modChrome_container_uikit_margin_n_0_s_0( $module, &$params, &$attribs 
 	echo $module->content;
 	echo '</div>';
 	echo '</div>';
+	echo '</div>';
 }
 
 function modChrome_container_uikit_margin_s_0_n_0( $module, &$params, &$attribs ) {
